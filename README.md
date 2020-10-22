@@ -5,7 +5,7 @@
 4（4）： pc.setCPU(cpu);
 4（5）： pc.setHardDisk(HD);
 4（6）：pc.show();
-####类中定义不少于两个构造方法；
+## 类中定义不少于两个构造方法； 
 public void setSize(int speed){
 	this.size= size;
 }
@@ -13,7 +13,7 @@ public void setSize(int speed){
 		   this.a =a;
 	   }
      
-     ####每个类定义不少于2个属性，且属性的类型应该多样化
+## 每个类定义不少于2个属性，且属性的类型应该多样化
       int getSize(){
 	  return size;
   }
@@ -31,7 +31,7 @@ double getA(){
      HD.setA(188);
     
     
-     ####尝试把本次实验的多个类放置在不同的包中，体会修饰符private的用法。
+## 尝试把本次实验的多个类放置在不同的包中，体会修饰符private的用法。
 private void setB(){
 	this.setB();
 }
